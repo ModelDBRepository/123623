@@ -98,7 +98,7 @@ ASSIGNED {
 
 
 BREAKPOINT { 
-	SOLVE states METHOD euler
+	SOLVE states METHOD cnexp : see http://www.neuron.yale.edu/phpBB/viewtopic.php?f=28&t=592
 	carev = (1e3) * (R*(celsius+273.15))/(2*FARADAY) * log (cao/cai)
 	ica = gcabar * m * m * h * (v-carev)
 }
