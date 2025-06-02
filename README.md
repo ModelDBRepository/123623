@@ -44,10 +44,9 @@ For example selecting Bursting Pyramidal Cell and then Init & Run should produce
 
 ![fig 5B appears here](./fig5b.jpg)
 
+---
 20111102 The file IL_gutnick.mod was updated to use derivimplicit in the solver. See [http://www.neuron.yale.edu/phpBB/viewtopic.php?f=28&t=592](http://www.neuron.yale.edu/phpBB/viewtopic.php?f=28&t=592) for details.
 
 20120216 the files IM_cortex.mod, IT_huguenard.mod, and cadecay_destexhe.mod had solver methods updated from euler to cnexp, cnexp, and derivimplicit respectively. The IL_gutnick.mod was changed from derivimplicit to cnexp. See www.neuron.yale.edu phpBB link above.
 
----
-
-2025-06-02: Converted README to Markdown.
+20250602 Converted README to Markdown.
